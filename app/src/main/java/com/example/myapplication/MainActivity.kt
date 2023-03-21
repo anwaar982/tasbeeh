@@ -19,6 +19,11 @@ var counter=0
             counter++
             binding.textView.text=counter.toString()
         }
+        binding.btnReset.setOnClickListener {
+
+            binding.textView.text=""
+            counter=0
+        }
 
 
 
